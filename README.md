@@ -1,7 +1,3 @@
-Here’s a refined `README` based on your multimodal sarcasm detection project:
-
----
-
 # 🧠 Multimodal Sarcasm Detection for UITC2024
 
 <p align="center">
