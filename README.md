@@ -1,8 +1,8 @@
-# 🧠 Multimodal Sarcasm Detection for UITC2024
-
 <p align="center">
   <img src="./pic/faster-united-team.jpg" width="1080">
 </p>
+
+<h1 align="center"> 🏆 Multimodal Sarcasm Detection for UITC2024 </h1>
 
 <p align="center">
   <em>A multimodal sarcasm detection system utilizing image-caption generation and natural language processing, developed for the UITC2024 competition.</em>
@@ -52,7 +52,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/dienlamAI/Multimodal-Sarcasm-Detection-in-UITC.git
-   cd multimodal-sarcasm-detection
+   cd Multimodal-Sarcasm-Detection-in-UITC
    ```
 
 2. **Install Dependencies**
@@ -69,13 +69,14 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
    This will start the application and allow you to test the sarcasm detection on your input data.
 
 ## 👣 Workflow
+![Pipeline](./pic/pipeline.png)
 - **Data Processing**: The system processes image and text data, generating captions for images and using the original text for classification.
 - **Model Training**: The four models (trained for 2-class, 3-class, and 4-class tasks) work together to detect sarcasm across different types of input.
 - **Voting Model**: The predictions of individual models are aggregated using a Voting Model to produce the final classification.
 
 ## 📐 App Structure
 ```
-├── multimodal-sarcasm-detection/
+├── Multimodal-Sarcasm-Detection-in-UITC/
 │   ├── config/
 │   │   ├── config_trainer.yaml
 │   ├── pic/
@@ -83,6 +84,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
 │   │   ├── data_processing/
 │   │   ├── multimodal_classifier/
 │   │   ├── pipeline_notebook/
+|   |   ├── utils.py
 │   ├── requirements.txt
 ```
 
