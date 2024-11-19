@@ -1,0 +1,62 @@
+# Paths
+train_path: "/kaggle/input/vimmsd/train-images/"
+test_path: "/kaggle/input/vimmsd/test-images/"
+train_json_path: "/kaggle/input/vimmsd/vimmsd-train-new-translate.csv"
+test_json_path: "/kaggle/input/vimmsd/vimmsd-private-test-new-translate.csv"
+
+# Dimensions
+image_dim: 1000
+text_dim: 1024
+caption_image_dim: 1024
+
+# Model architecture
+num_heads: 4
+key_dim: 128
+image_branch_layers:
+  - 1024
+  - 512
+text_branch_layers:
+  - 512
+  - 256
+caption_image_branch_layers:
+  - 512
+  - 256
+combined_layer_size: 1024
+dropout_rate: 0.3
+
+# Training parameters
+epochs: 25
+batch_size: 16
+initial_lr: 7e-5
+lr_schedule:
+  decay_start: 5
+  decay_mid: 20
+  decay_factor_mid: 0.1
+  decay_factor_end: 0.01
+
+# Classification parameters
+map_label:
+  not-sarcasm: 0
+  image-sarcasm: 1
+  text-sarcasm: 2
+  multi-sarcasm: 3
+n_classes: 4
+class_weight:
+  - 0.1
+  - 0.3
+  - 0.5
+  - 0.1
+
+# Loss parameters
+loss_type: "categorical_focal"
+alpha: 0.25
+gamma: 2
+margin: 1.0
+
+# Model paths
+load_model: ""
+save_path: "/kaggle/working/sarcasm_model.h5"
+
+# Testing configuration
+name_test_file: "/kaggle/working/test.json"
+phase: "test"

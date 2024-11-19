@@ -1,0 +1,6 @@
+einops
+pyvi
+transformers
+torch
+flash-attn
+sentencepiece
