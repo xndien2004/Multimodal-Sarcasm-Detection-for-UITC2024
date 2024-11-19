@@ -51,8 +51,8 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/dienlamAI/Multimodal-Sarcasm-Detection-in-UITC.git
-   cd Multimodal-Sarcasm-Detection-in-UITC
+   git clone https://github.com/dienlamAI/Multimodal-Sarcasm-Detection-for-UITC2024.git
+   cd Multimodal-Sarcasm-Detection-for-UITC2024
    ```
 
 2. **Install Dependencies**
@@ -76,7 +76,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
 
 ## 📐 App Structure
 ```
-├── Multimodal-Sarcasm-Detection-in-UITC/
+├── Multimodal-Sarcasm-Detection-for-UITC2024/
 │   ├── config/
 │   │   ├── config_trainer.yaml
 │   ├── pic/
