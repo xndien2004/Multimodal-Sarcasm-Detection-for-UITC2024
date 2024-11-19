@@ -10,7 +10,6 @@
 
 ![Static Badge](https://img.shields.io/badge/python->=3.10-blue)
 ![Static Badge](https://img.shields.io/badge/transformers-4.x-blue)
-![Static Badge](https://img.shields.io/badge/flash-attn-2.x-blue)
 ![Static Badge](https://img.shields.io/badge/sentencepiece-0.2.0-blue)
 ![Static Badge](https://img.shields.io/badge/pyvi-0.1.1-blue)
 ![Static Badge](https://img.shields.io/badge/einops-0.8.0-blue)
@@ -39,7 +38,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
    - **Image-based input**: Generates image captions for context-based analysis.
 
 2. **Sarcasm Classification**
-   - Classifies content into four categories: **image sarcasm**, **text sarcasm**, **multi-modal sarcasm**, and **no sarcasm**.
+   - Classifies content into four categories: **image sarcasm**, **text sarcasm**, **multi sarcasm**, and **not sarcasm**.
 
 3. **Model Architecture**
    - Utilizes state-of-the-art models like **Florence-v2** for image captioning and **transformers** for text analysis.
@@ -52,7 +51,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/dienlamAI/multimodal-sarcasm-detection.git
+   git clone https://github.com/dienlamAI/Multimodal-Sarcasm-Detection-in-UITC.git
    cd multimodal-sarcasm-detection
    ```
 
