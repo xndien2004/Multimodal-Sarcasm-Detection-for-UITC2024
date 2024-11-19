@@ -83,7 +83,7 @@ Our team **Faster-United** achieved **1st place** with an F1 score of **0.4475**
    This will start the application and allow you to test the sarcasm detection on your input data.
 
 ## 👣 Workflow
-![Pipeline](./pic/pipeline.png)
+<!-- ![Pipeline](./pic/pipeline.png) -->
 - **Data Processing**: The system processes image and text data, generating captions for images and using the original text for classification.
 - **Model Training**: The four models (trained for 2-class, 3-class, and 4-class tasks) work together to detect sarcasm across different types of input.
 - **Voting Model**: The predictions of individual models are aggregated using a Voting Model to produce the final classification.
