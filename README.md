@@ -52,7 +52,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
 
 | Team Name      | F1           | Precision     | Recall       |
 |----------------|--------------|---------------|--------------|
-| **Faster-United** | 0.4475    | 0.4403        | 0.4563       |
+| **Faster-United** | **0.4475**    | 0.4403        | 0.4563       |
 | **US1**           | 0.4403    | 0.4462        | 0.5678       |
 | **AIbou**         | 0.4386    | 0.4256        | 0.4935       |
 | **BEd**           | 0.4328    | 0.4240        | 0.4574       |
@@ -65,7 +65,7 @@ Our team **Faster-United** achieved **1st place** with an F1 score of **0.4475**
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/dienlamAI/Multimodal-Sarcasm-Detection-for-UITC2024.git
+   git clone https://github.com/xndien2004/Multimodal-Sarcasm-Detection-for-UITC2024.git
    cd Multimodal-Sarcasm-Detection-for-UITC2024
    ```
 
