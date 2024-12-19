@@ -1,4 +1,4 @@
-<h1 align="center"> 🏆 Multimodal Sarcasm Detection for UITC2024 </h1>
+# Multimodal Sarcasm Detection for UITC2024
 
 <p align="center">
   <em>A multimodal sarcasm detection system utilizing image-caption generation and natural language processing, developed for the UITC2024 competition, where we achieved 1st place.</em>
