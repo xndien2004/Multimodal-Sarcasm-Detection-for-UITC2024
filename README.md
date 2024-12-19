@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="./pic/background-dsc-2024.webp" width="1080">
-</p>
-
 <h1 align="center"> 🏆 Multimodal Sarcasm Detection for UITC2024 </h1>
 
 <p align="center">
