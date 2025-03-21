@@ -123,7 +123,7 @@ class VietnameseTextPreprocessor:
 
     @classmethod
     def preprocess(cls, text):
-        text = cls.unicode_normalize(text)
+        # text = cls.unicode_normalize(text)
         text = cls.standardize_sentence_tone(text)
         text = cls.fix_repeated_chars(text)
         return text

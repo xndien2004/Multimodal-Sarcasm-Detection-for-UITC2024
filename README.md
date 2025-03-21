@@ -24,7 +24,7 @@
 </details>
 
 ## 📍 Overview 
-The **Multimodal Sarcasm Detection System** is designed to detect sarcasm in multimedia content using image-text pairs. It generates captions from images using a pre-trained Florence-v2 and translate-en2vi model, then processes the data through three input streams: original text, generated captions, and image features. The system integrates these inputs into a unified model that classifies sarcasm across different categories: text sarcasm, image sarcasm, multi-modal sarcasm, and no sarcasm.
+The **Multimodal Sarcasm Detection System** is designed to detect sarcasm in multimedia content using image-text pairs. It generates captions from images using a pre-trained Vintern-1B-v2 model, then processes the data through three input streams: original text, generated captions, and image features. The system integrates these inputs into a unified model that classifies sarcasm across different categories: text sarcasm, image sarcasm, multi-modal sarcasm, and no sarcasm.
 
 This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.vn/bang-b/) and aims to advance the understanding of sarcasm detection in multimodal contexts.
 
@@ -100,6 +100,6 @@ Our team **Faster-United** achieved **1st place** with an F1 score of **0.4475**
 
 ## 🧑‍💻 Contributors
 
-- [Trần Xuân Diện](https://github.com/dienlamAI)
+- [Trần Xuân Diện](https://github.com/xndien2004)
 - Võ Trọng Nhơn
 - Nguyễn Đăng Tuấn Huy
