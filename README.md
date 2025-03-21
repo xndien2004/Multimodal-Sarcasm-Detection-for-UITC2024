@@ -38,7 +38,7 @@ This system is developed for the [**UITC2024** competition](https://dsc.uit.edu.
    - Classifies content into four categories: **image sarcasm**, **text sarcasm**, **multi sarcasm**, and **not sarcasm**.
 
 3. **Model Architecture**
-   - Utilizes state-of-the-art models like **Florence-v2** for image captioning and **transformers** for text analysis.
+   - Utilizes state-of-the-art models like **Vintern-1B-v2** for image captioning and **transformers** for text analysis.
    - Integrated **ViT** and **Jina Embedding V3** for feature extraction, with optimization using **Cross Entropy** and **Focal Loss**.
 
 4. **Voting Model Integration**
